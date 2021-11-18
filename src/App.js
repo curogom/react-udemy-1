@@ -4,11 +4,11 @@ import NewExpense from "./components/NewExpenses/NewExpense";
 import Expense from "./components/Expenses/Expense";
 
 const DUMMY_EXPENSE = [
-    {title: 'Car Insurance', amount: 294.67, date: new Date(2021, 2, 28)},
-    {title: 'Test1', amount: 123.45, date: new Date(2021, 3, 1)},
-    {title: 'Test2', amount: 94.12, date: new Date(2021, 3, 21)},
-    {title: 'Test3', amount: 14.00, date: new Date(2021, 4, 7)},
-    {title: 'Test4', amount: 543.21, date: new Date(2021, 4, 14)},
+    {id: 'id1', title: 'Car Insurance', amount: 294.67, date: new Date(2019, 2, 28)},
+    {id: 'id2', title: 'Test1', amount: 123.45, date: new Date(2019, 3, 1)},
+    {id: 'id3', title: 'Test2', amount: 94.12, date: new Date(2020, 3, 21)},
+    {id: 'id4',title: 'Test3', amount: 14.00, date: new Date(2020, 4, 7)},
+    {id: 'id5',title: 'Test4', amount: 543.21, date: new Date(2021, 4, 14)},
 ];
 
 const App = () => {
